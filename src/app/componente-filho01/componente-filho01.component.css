@@ -1,0 +1,4 @@
+.estados {
+    display: flex;
+    flex-direction: row;
+}
