@@ -1,10 +1,5 @@
-<div class="pessoas">
-    <select [(ngModel)]="valorSelecionadoFilho01">
-        <option *ngFor="let p of pessoas" [ngValue]="p"> {{ p.nome }}</option>
+<div class="container">
+    <select class="form-select" aria-label="Default select example" [(ngModel)]="valorSelecionadoFilho01">
+        <option *ngFor="let p of pessoas" [ngValue]="p">{{ p.nome }}</option>
     </select>
 </div>
-<!-- <div *ngIf="valorSelecionadoFilho01 as pessoa">
-    <div *ngFor="let t of pessoa.telefone">
-        {{ t.numero }}
-    </div>
-</div> -->

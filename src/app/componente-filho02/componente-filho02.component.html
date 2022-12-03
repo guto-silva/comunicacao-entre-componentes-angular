@@ -1,5 +1,5 @@
-<div class="telefones" *ngIf="objFilho01 as pessoa">
-    <select [(ngModel)]="selecionadoFilho02">
-        <option *ngFor="let t of pessoa.telefone">{{ t.numero }}</option>
+<div class="container">
+    <select class="form-select" aria-label="Default select example" [(ngModel)]="selecionadoFilho02">
+        <option *ngFor="let t of objFilho01.telefone">{{ t.numero }}</option>
     </select>
 </div>

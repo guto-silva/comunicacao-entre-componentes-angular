@@ -21,16 +21,26 @@ export class ComponenteFilho01Component implements OnInit {
     {
       "id": 2,
       "numero": 65432
+    },
+    {
+      "id": 3,
+      "numero": 38383
     }
     ]
   },
   {
     "id": 2,
     "nome": "Ana",
-    "telefone": [{
-      "id": 3,
+    "telefone": [
+      {
+      "id": 4,
       "numero": 88338
-    }]
+      },
+      {
+        "id": 5,
+        "numero": 42348
+      }
+    ]
   }
   ]
 
